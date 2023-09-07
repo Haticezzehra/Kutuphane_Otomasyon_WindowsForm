@@ -1,0 +1,42 @@
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary1\bin\Debug\Entity.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary1\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary1\obj\Debug\Entity.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary1\obj\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\bin\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\obj\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\obj\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\obj\Debug\Kutuphane.Entity.csprojResolveAssemblyReference.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\Entity.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\Entity.pdb
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\obj\Debug\Kutuphane.Entity.csproj.AssemblyReference.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\obj\Debug\Kutuphane.Entity.csproj.CoreCompileInputs.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\obj\Debug\Entity.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\obj\Debug\Entity.pdb
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\Entity.dll.config
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.CodeParser.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.DataAccess.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Xpo.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Office.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Drawing.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.DataAccess.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Xpo.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Office.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Drawing.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary1\obj\Debug\Kutuphane.Entity.csproj.CopyComplete
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary1\bin\Debug\Entity.dll.config
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary1\bin\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary1\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary1\obj\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary1\obj\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary1\bin\Debug\Entity.dll.config

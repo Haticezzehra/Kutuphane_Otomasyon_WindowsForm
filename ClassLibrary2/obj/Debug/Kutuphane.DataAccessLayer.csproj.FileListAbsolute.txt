@@ -1,0 +1,103 @@
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll.config
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\Entity.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\documents\visual studio 2017\Projects\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll.config
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll.config
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Entity.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Entity.pdb
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.CopyComplete
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\DataAccessLayer.XtraReport1.resources
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll.licenses
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Charts.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.CodeParser.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Data.Desktop.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Data.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.DataAccess.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Drawing.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Office.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.PivotGrid.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.RichEdit.v23.1.Export.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Sparkline.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Xpo.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraCharts.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraGauges.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraReports.v23.1.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.DataVisualization.v23.1.Core.dll
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\Entity.dll.config
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Charts.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Data.Desktop.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Data.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.DataAccess.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Drawing.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Office.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.PivotGrid.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Sparkline.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Xpo.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraCharts.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraGauges.v23.1.Core.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.XtraReports.v23.1.xml
+C:\Users\hatic\OneDrive\Masaüstü\Project\App3\ClassLibrary2\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll.config
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Entity.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\EntityFramework.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Entity.pdb
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Entity.dll.config
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\EntityFramework.xml
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\DataAccessLayer.XtraReport1.resources
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.GenerateResource.Cache
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll.licenses
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll
+C:\Users\Noyasis004\Desktop\Projee\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.pdb
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\bin\Debug\Entity.dll.config
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\DataAccessLayer.XtraReport1.resources
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.csproj.GenerateResource.Cache
+C:\Users\Noyasis004\Desktop\App3\ClassLibrary2\obj\Debug\Kutuphane.DataAccessLayer.dll.licenses

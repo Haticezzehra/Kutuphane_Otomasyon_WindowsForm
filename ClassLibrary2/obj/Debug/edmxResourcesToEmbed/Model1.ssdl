@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KutuphaneModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Kitap">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SayfaSayisi" Type="int" />
+    <Property Name="KitapTurID" Type="int" />
+    <Property Name="YayınEviID" Type="int" />
+    <Property Name="YazarID" Type="int" />
+    <Property Name="Barkod" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayitYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayitTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+    <Property Name="Resim" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="KitapOgrenci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrenciID" Type="int" />
+    <Property Name="KitapID" Type="int" />
+    <Property Name="AlisTarihi" Type="datetime" />
+    <Property Name="TeslimTarihi" Type="datetime" />
+    <Property Name="KayitYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayıtTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+    <Property Name="KullaniciID" Type="int" />
+  </EntityType>
+  <EntityType Name="KitapTuru">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KayitYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayitTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Parola" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KayıtYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayıtTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ogrenci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sınıf" Type="char" MaxLength="10" />
+    <Property Name="Bolum" Type="nchar" MaxLength="10" />
+    <Property Name="OkulNo" Type="nchar" MaxLength="10" />
+    <Property Name="KayıtYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayıtTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="YayinEvi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adı" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KayıtYapan" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KayitTarihi" Type="datetime" Nullable="false" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Yazar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayıtYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayıtTarihi" Type="datetime" />
+    <Property Name="DegisiklikYapan" Type="nvarchar" MaxLength="50" />
+    <Property Name="DegisiklikTarihi" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_Kitap_Kitap Türü">
+    <End Role="KitapTuru" Type="Self.KitapTuru" Multiplicity="0..1" />
+    <End Role="Kitap" Type="Self.Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KitapTuru">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="KitapTurID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Ögrenci_Kitap">
+    <End Role="Kitap" Type="Self.Kitap" Multiplicity="0..1" />
+    <End Role="KitapOgrenci" Type="Self.KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kitap">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="KitapID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Yayın Evi">
+    <End Role="YayinEvi" Type="Self.YayinEvi" Multiplicity="0..1" />
+    <End Role="Kitap" Type="Self.Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="YayinEvi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="YayınEviID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Yazar">
+    <End Role="Yazar" Type="Self.Yazar" Multiplicity="0..1" />
+    <End Role="Kitap" Type="Self.Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yazar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="YazarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KitapOgrenci_Kullanıcı">
+    <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="0..1" />
+    <End Role="KitapOgrenci" Type="Self.KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanici">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KitapOgrenci_Ogrenci">
+    <End Role="Ogrenci" Type="Self.Ogrenci" Multiplicity="0..1" />
+    <End Role="KitapOgrenci" Type="Self.KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KutuphaneModelStoreContainer">
+    <EntitySet Name="Kitap" EntityType="Self.Kitap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KitapOgrenci" EntityType="Self.KitapOgrenci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KitapTuru" EntityType="Self.KitapTuru" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ogrenci" EntityType="Self.Ogrenci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="YayinEvi" EntityType="Self.YayinEvi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yazar" EntityType="Self.Yazar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Kitap_Kitap Türü" Association="Self.FK_Kitap_Kitap Türü">
+      <End Role="KitapTuru" EntitySet="KitapTuru" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Ögrenci_Kitap" Association="Self.FK_Kitap_Ögrenci_Kitap">
+      <End Role="Kitap" EntitySet="Kitap" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Yayın Evi" Association="Self.FK_Kitap_Yayın Evi">
+      <End Role="YayinEvi" EntitySet="YayinEvi" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Yazar" Association="Self.FK_Kitap_Yazar">
+      <End Role="Yazar" EntitySet="Yazar" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KitapOgrenci_Kullanıcı" Association="Self.FK_KitapOgrenci_Kullanıcı">
+      <End Role="Kullanici" EntitySet="Kullanici" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KitapOgrenci_Ogrenci" Association="Self.FK_KitapOgrenci_Ogrenci">
+      <End Role="Ogrenci" EntitySet="Ogrenci" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

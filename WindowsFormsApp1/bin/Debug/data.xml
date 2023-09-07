@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OgrenciBilgileriXml>
+  <StudentInfo name="OgrenciBilgisi">
+    <Adi>Semih</Adi>
+    <Soyadi>Çelikol</Soyadi>
+    <OgranciNo>11111</OgranciNo>
+  </StudentInfo>
+</OgrenciBilgileriXml>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KutuphaneModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KutuphaneEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Kitap" EntityType="KutuphaneModel.Kitap" />
+    <EntitySet Name="KitapOgrenci" EntityType="KutuphaneModel.KitapOgrenci" />
+    <EntitySet Name="KitapTuru" EntityType="KutuphaneModel.KitapTuru" />
+    <EntitySet Name="Kullanici" EntityType="KutuphaneModel.Kullanici" />
+    <EntitySet Name="Ogrenci" EntityType="KutuphaneModel.Ogrenci" />
+    <EntitySet Name="YayinEvi" EntityType="KutuphaneModel.YayinEvi" />
+    <EntitySet Name="Yazar" EntityType="KutuphaneModel.Yazar" />
+    <AssociationSet Name="FK_Kitap_Kitap_Türü" Association="KutuphaneModel.FK_Kitap_Kitap_Türü">
+      <End Role="KitapTuru" EntitySet="KitapTuru" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Ögrenci_Kitap" Association="KutuphaneModel.FK_Kitap_Ögrenci_Kitap">
+      <End Role="Kitap" EntitySet="Kitap" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Yayın_Evi" Association="KutuphaneModel.FK_Kitap_Yayın_Evi">
+      <End Role="YayinEvi" EntitySet="YayinEvi" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kitap_Yazar" Association="KutuphaneModel.FK_Kitap_Yazar">
+      <End Role="Yazar" EntitySet="Yazar" />
+      <End Role="Kitap" EntitySet="Kitap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KitapOgrenci_Kullanıcı" Association="KutuphaneModel.FK_KitapOgrenci_Kullanıcı">
+      <End Role="Kullanici" EntitySet="Kullanici" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KitapOgrenci_Ogrenci" Association="KutuphaneModel.FK_KitapOgrenci_Ogrenci">
+      <End Role="Ogrenci" EntitySet="Ogrenci" />
+      <End Role="KitapOgrenci" EntitySet="KitapOgrenci" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kitap">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SayfaSayisi" Type="Int32" />
+    <Property Name="KitapTurID" Type="Int32" />
+    <Property Name="YayınEviID" Type="Int32" />
+    <Property Name="YazarID" Type="Int32" />
+    <Property Name="Barkod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <Property Name="Resim" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="KitapTuru" Relationship="KutuphaneModel.FK_Kitap_Kitap_Türü" FromRole="Kitap" ToRole="KitapTuru" />
+    <NavigationProperty Name="KitapOgrenci" Relationship="KutuphaneModel.FK_Kitap_Ögrenci_Kitap" FromRole="Kitap" ToRole="KitapOgrenci" />
+    <NavigationProperty Name="YayinEvi" Relationship="KutuphaneModel.FK_Kitap_Yayın_Evi" FromRole="Kitap" ToRole="YayinEvi" />
+    <NavigationProperty Name="Yazar" Relationship="KutuphaneModel.FK_Kitap_Yazar" FromRole="Kitap" ToRole="Yazar" />
+  </EntityType>
+  <EntityType Name="KitapOgrenci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgrenciID" Type="Int32" />
+    <Property Name="KitapID" Type="Int32" />
+    <Property Name="AlisTarihi" Type="DateTime" Precision="3" />
+    <Property Name="TeslimTarihi" Type="DateTime" Precision="3" />
+    <Property Name="KayitYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <Property Name="KullaniciID" Type="Int32" />
+    <NavigationProperty Name="Kitap" Relationship="KutuphaneModel.FK_Kitap_Ögrenci_Kitap" FromRole="KitapOgrenci" ToRole="Kitap" />
+    <NavigationProperty Name="Kullanici" Relationship="KutuphaneModel.FK_KitapOgrenci_Kullanıcı" FromRole="KitapOgrenci" ToRole="Kullanici" />
+    <NavigationProperty Name="Ogrenci" Relationship="KutuphaneModel.FK_KitapOgrenci_Ogrenci" FromRole="KitapOgrenci" ToRole="Ogrenci" />
+  </EntityType>
+  <EntityType Name="KitapTuru">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Kitap" Relationship="KutuphaneModel.FK_Kitap_Kitap_Türü" FromRole="KitapTuru" ToRole="Kitap" />
+  </EntityType>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Parola" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="KitapOgrenci" Relationship="KutuphaneModel.FK_KitapOgrenci_Kullanıcı" FromRole="Kullanici" ToRole="KitapOgrenci" />
+  </EntityType>
+  <EntityType Name="Ogrenci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sınıf" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Bolum" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="OkulNo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="KayıtYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="KitapOgrenci" Relationship="KutuphaneModel.FK_KitapOgrenci_Ogrenci" FromRole="Ogrenci" ToRole="KitapOgrenci" />
+  </EntityType>
+  <EntityType Name="YayinEvi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adı" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtYapan" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Kitap" Relationship="KutuphaneModel.FK_Kitap_Yayın_Evi" FromRole="YayinEvi" ToRole="Kitap" />
+  </EntityType>
+  <EntityType Name="Yazar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayıtTarihi" Type="DateTime" Precision="3" />
+    <Property Name="DegisiklikYapan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DegisiklikTarihi" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Kitap" Relationship="KutuphaneModel.FK_Kitap_Yazar" FromRole="Yazar" ToRole="Kitap" />
+  </EntityType>
+  <Association Name="FK_Kitap_Kitap_Türü">
+    <End Type="KutuphaneModel.KitapTuru" Role="KitapTuru" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.Kitap" Role="Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KitapTuru">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="KitapTurID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Ögrenci_Kitap">
+    <End Type="KutuphaneModel.Kitap" Role="Kitap" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.KitapOgrenci" Role="KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kitap">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="KitapID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Yayın_Evi">
+    <End Type="KutuphaneModel.YayinEvi" Role="YayinEvi" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.Kitap" Role="Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="YayinEvi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="YayınEviID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kitap_Yazar">
+    <End Type="KutuphaneModel.Yazar" Role="Yazar" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.Kitap" Role="Kitap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yazar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Kitap">
+        <PropertyRef Name="YazarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KitapOgrenci_Kullanıcı">
+    <End Type="KutuphaneModel.Kullanici" Role="Kullanici" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.KitapOgrenci" Role="KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanici">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KitapOgrenci_Ogrenci">
+    <End Type="KutuphaneModel.Ogrenci" Role="Ogrenci" Multiplicity="0..1" />
+    <End Type="KutuphaneModel.KitapOgrenci" Role="KitapOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ogrenci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KitapOgrenci">
+        <PropertyRef Name="OgrenciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

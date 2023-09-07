@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KutuphaneModelStoreContainer" CdmEntityContainer="KutuphaneEntities">
+    <EntitySetMapping Name="Kitap">
+      <EntityTypeMapping TypeName="KutuphaneModel.Kitap">
+        <MappingFragment StoreEntitySet="Kitap">
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayitTarihi" ColumnName="KayitTarihi" />
+          <ScalarProperty Name="KayitYapan" ColumnName="KayitYapan" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="YazarID" ColumnName="YazarID" />
+          <ScalarProperty Name="YayınEviID" ColumnName="YayınEviID" />
+          <ScalarProperty Name="KitapTurID" ColumnName="KitapTurID" />
+          <ScalarProperty Name="SayfaSayisi" ColumnName="SayfaSayisi" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KitapOgrenci">
+      <EntityTypeMapping TypeName="KutuphaneModel.KitapOgrenci">
+        <MappingFragment StoreEntitySet="KitapOgrenci">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayıtTarihi" ColumnName="KayıtTarihi" />
+          <ScalarProperty Name="KayitYapan" ColumnName="KayitYapan" />
+          <ScalarProperty Name="TeslimTarihi" ColumnName="TeslimTarihi" />
+          <ScalarProperty Name="AlisTarihi" ColumnName="AlisTarihi" />
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="OgrenciID" ColumnName="OgrenciID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KitapTuru">
+      <EntityTypeMapping TypeName="KutuphaneModel.KitapTuru">
+        <MappingFragment StoreEntitySet="KitapTuru">
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayitTarihi" ColumnName="KayitTarihi" />
+          <ScalarProperty Name="KayitYapan" ColumnName="KayitYapan" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="KutuphaneModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayıtTarihi" ColumnName="KayıtTarihi" />
+          <ScalarProperty Name="KayıtYapan" ColumnName="KayıtYapan" />
+          <ScalarProperty Name="Parola" ColumnName="Parola" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ogrenci">
+      <EntityTypeMapping TypeName="KutuphaneModel.Ogrenci">
+        <MappingFragment StoreEntitySet="Ogrenci">
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayıtTarihi" ColumnName="KayıtTarihi" />
+          <ScalarProperty Name="KayıtYapan" ColumnName="KayıtYapan" />
+          <ScalarProperty Name="OkulNo" ColumnName="OkulNo" />
+          <ScalarProperty Name="Bolum" ColumnName="Bolum" />
+          <ScalarProperty Name="Sınıf" ColumnName="Sınıf" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YayinEvi">
+      <EntityTypeMapping TypeName="KutuphaneModel.YayinEvi">
+        <MappingFragment StoreEntitySet="YayinEvi">
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayitTarihi" ColumnName="KayitTarihi" />
+          <ScalarProperty Name="KayıtYapan" ColumnName="KayıtYapan" />
+          <ScalarProperty Name="Adı" ColumnName="Adı" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yazar">
+      <EntityTypeMapping TypeName="KutuphaneModel.Yazar">
+        <MappingFragment StoreEntitySet="Yazar">
+          <ScalarProperty Name="DegisiklikTarihi" ColumnName="DegisiklikTarihi" />
+          <ScalarProperty Name="DegisiklikYapan" ColumnName="DegisiklikYapan" />
+          <ScalarProperty Name="KayıtTarihi" ColumnName="KayıtTarihi" />
+          <ScalarProperty Name="KayıtYapan" ColumnName="KayıtYapan" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
